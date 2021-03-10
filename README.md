@@ -1,6 +1,8 @@
-## Golosowanie ##
-Simple voting bot for your community
-### Commands ###
-!SetChannel - sets a specific channel in which your users can creat Voting only Admins can use it
+## VoteBot ##
 
-!Anons <vote_message> - Reposting your message from a bot then deleting your message
+Simple voting bot for your discord server
+
+### Commands ###
+First you need to specify textchannel where you want to voting messages to be using `!SetChannel`
++ `!SetChannel` sets a specific channel in which users can create Bills, only Admins can use it
++ `!Vote <voteMessage>` Bot reposts your message and then deleting your original message
